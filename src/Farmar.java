@@ -9,4 +9,10 @@ public class Farmar extends Zahonek{
     public void zasadit(String kytka){
         farma.add(kytka);
     }
+
+    public void zavlazit(int zvsance){
+        for (int x = 0; x < 5; x++){
+            sance.r(zvsance + 10);
+        }
+    }
 }

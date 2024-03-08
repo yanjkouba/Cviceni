@@ -5,5 +5,7 @@ public class Main {
 
        jarda.zasadit("Jablecnik");
         System.out.println(jarda.farma);
+        jarda.zavlazit();
+        System.out.println(jarda.sance);
     }
 }
